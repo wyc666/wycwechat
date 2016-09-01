@@ -1,29 +1,9 @@
-# JAVA示例应用
+﻿#部署在SAE或者使用外网(花生壳等)连接微信服务器（建议使用SAE部署,在SAE开发平台开发，完全支持SAE容器需要）
 
-## 本地运行
+#本公众号需要认证的服务号或认证的企业号才能支持所有功能
 
-```sh
-$ git clone https://github.com/sinacloud/java-getting-started.git
-$ cd java-getting-started
-$ mvn package
-$ java -jar target/dependency/jetty-runner.jar --port 5050 target/*.war
-```
-现在，本示例应用已经跑在了你的 localhost:5050 端口上了。
+#已完成的功能：天气预报、人脸年龄识别、消息响应
 
-## 部署到sinacloud
+#待完成功能：订餐系统、座位预定 ...
 
-首先，提交代码到你的sinacloud应用的git仓库。
-
-```
-$ git remote add sinacloud $GIT_REPOS_URL_FOR_YOUR_APPLICATIRON
-$ git push sinacloud master
-```
-
-登陆sinacloud容器云的管理页面，在部署页面中，点击部署。
-
-部署完成之后，你就可以通过 http://$APPNAME.sinaapp.com 来访问你的应用了。
-
-## 相关文档
-
-- [Java应用部署指南](http://www.sinacloud.com/doc/sae/docker/java-getting-started.html)
-
+#使用jdk1.8
